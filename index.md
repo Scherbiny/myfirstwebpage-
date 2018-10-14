@@ -1,37 +1,65 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+    </script>
+    <title>HTML, Der Anfang</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Bismillah</h1>
+      <form name="register" class="" action="index.html" method="post">
+        <fieldset>
+            <legend>Personal information </legend>
+            <label>Username</label>
+            <input type="text" name="Username">
+            <label for="">Password</label>
+            <input type="password" name="password" value="">
+            <label for="">E-Mail</label>
+            <input type="text" name="email" value="">
 
-You can use the [editor on GitHub](https://github.com/Scherbiny/Module-2-Coding-Assignment/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+        </fieldset>
+      </form>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      <form class="" action="" method="post">
+        <fieldset>
+          <p>Username:
+              <input type="text" name="username" value="" size="15" maxlength="30">
+          </p>
+          <p>Password:
+              <input type="password" name="password" value="" size="15" maxlength="30">
+          </p>
+          <p>What do you think about this page? </p>
+            <textarea name="comments" rows="8" cols="50">Enter your comments .... </textarea>
+            <p>Please select your favorite type!
+              <br>
+              <input type="radio" name="type" value="rock" checked="checked"> Rock
+              <input type="radio" name="type" value="pop"> Pop
+              <input type="radio" name="type" value="jazz"> Jazz
+            </p>
+            <p>Please select your favorite Music Service(s)
+              <br>
+              <input type="checkbox" name="service" value="sha3by" checked="checked">Sha3by
+              <input type="checkbox" name="service" value="aghani">Aghani
+              <input type="checkbox" name="service" value="agnabi">Agnabi
+            </p>
 
-### Markdown
+          </fieldset>
+        </form>
+          <form class="" action="index.html" method="post">
+            <p>Welches Geraet benutzt du am besten?</p>
+              <select class="" name="devices">
+                <option value="iPod">iPod</option>
+                <option value="radio">Radio</option>
+                <option value="laptop">Laptop</option>
+                <option value="pc">PC</option>
+              </select>
+          </form>
+          <form class="" action="index.html" method="post">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+          </form>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Scherbiny/Module-2-Coding-Assignment/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
+<meta http-equiv="refresh" content="">
